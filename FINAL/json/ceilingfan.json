@@ -1,0 +1,76 @@
+﻿[
+    {
+        "name": "Hunt Slonem",
+        "price": "$80,000",
+        "image": "images/1.jpg",
+        "describe": "Inspired by nature and his 60 pet birds, Hunt Slonem is renowned for his distinct neo-expressionist style."
+    },
+    {
+        "name": "Tim Hayward",
+        "price": "$13,615.83",
+        "image": "images/2.jpg",
+        "describe": "Tim Hayward has developed a highly individual and imaginative form of wildlife painting. His subtlety in rendering textures in watercolour and gouache, and accuracy of line and form demonstrate a lifetime's study of and fascination with wildlife."
+    },
+    {
+        "name": "Doves and Swallow - Roseate ",
+        "price": "$1,580",
+        "image": "images/3.jpg",
+        "describe": "Gallery curates a series of original etchings from respected European artist and ex-New Yorker, Cuca Romley. Ms Romley is in her eighties, and currently based in Spain after spending decades in New York City."
+    },
+    {
+        "name": "Etching - Central Park West",
+        "price": "$1,580",
+        "image": "images/4.jpg",
+        "describe": "Inspired by nature and his 60 pet birds, Hunt Slonem is renowned for his distinct neo-expressionist style."
+    },
+    {
+        "name": "Sleepwalk",
+        "price": "$130,000",
+        "image": "images/5.jpg",
+        "describe": "The Juxtapose by french contemporary artist Mr. Brainwash was created in 2020 in his signature style of layering paint, stencil, and mixed media on paper to create a cultural commentary in vibrant visual format."
+    },
+    {
+        "name": "Mr. Brainwash, Juxtapose (Unique Painting), 2020",
+        "price": "$2800",
+        "image": "images/6.jpg",
+        "describe": "Fragmentation is a unique contemporary modern painting by renowned Polish-Dutch artist Eliza Kopec. The painting is a typical example of her preferred minimalist abstract geometric vocabulary."
+    },
+    {
+        "name": "Fragmentation ",
+        "price": "$11,500",
+        "image": "images/7.jpg",
+        "describe": "The work is signed in the lower right. The artwork is registered in the archives of the Calder Foundation, New York, under the application number A12826."
+
+    },
+    {
+        "name": "The Traveler by Jessica Pisano",
+        "price": "$5,800",
+        "image": "images/8.jpg",
+        "describe": "This stunning British Victorian oil painting is by noted topographical artist William Parrott. Painted in 1847 whilst Parrott was living in Italy, the location is the Piazza del Nettuno in Bologne."
+
+    },
+    {
+        "name": "Eclat",
+        "price": "$185,000",
+        "image": "images/9.jpg",
+        "describe": "December 1961—Madame Jean Serpieri sits in the ballroom of the Tour La Reine near Athens, wearing a gown which belonged to the wife of Otto, the first king of modern Greece."
+    },
+    {
+        "name": "An Imaginary Landscape",
+        "price": "$6000",
+        "image": "images/10.jpg",
+        "describe": "This highly detailed oil on panel by French artist François Brunery offers a rich and exuberant glimpse into the life of a clergyman."
+    },
+    {
+        "name": "Street Scene in Bologna",
+        "price": "$16,339",
+        "image": "images/11.jpg",
+        "describe": "Inspired by nature and his 60 pet birds, Hunt Slonem is renowned for his distinct neo-expressionist style."
+    },
+    {
+        "name": "Madame Jean Serpier",
+        "price": "$5,500",
+        "image": "images/12.jpg",
+        "describe": "Inspired by nature and his 60 pet birds, Hunt Slonem is renowned for his distinct neo-expressionist style."
+    }
+]

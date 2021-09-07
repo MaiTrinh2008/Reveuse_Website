@@ -1,0 +1,224 @@
+﻿@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before, ::after {
+    box-sizing: border-box;
+}
+
+.section {
+    background-color: #ffead9;
+    min-height: 100vh;
+    display: block;
+    padding: 0 30px;
+}
+
+.main-content {
+    padding-left: 270px;
+    background-color: #f6e5cb;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+}
+/*Aside*/
+.aside {
+    width: 270px;
+    background-color: #ffead9; /*Khung ben trai*/
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    border-right: 2px solid #f6ca91;
+    padding: 30px;
+}
+
+    .aside .logo {
+        padding: 30px 0;
+        align-items: center;
+    }
+
+    .aside .nav {
+        list-style: none;
+        margin: 80px 0;
+        padding: 0;
+    }
+
+        .aside .nav li {
+            display: block;
+        }
+
+            .aside .nav li a {
+                font-size: 16px;
+                font-weight: 600;
+                display: block;
+                text-decoration: none;
+                line-height: 45px;
+                border-bottom: 1px solid #f6ca91;
+                transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                text-transform: capitalize;
+                color: #3f5c4c;
+            }
+
+                .aside .nav li a:hover {
+                    padding-left: 5px;
+                    color: #f6ca91;
+                }
+
+                .aside .nav li a .fa {
+                    margin-right: 10px;
+                }
+
+    .aside .logo a {
+        font-size: 40px;
+        color: #3f5c4c;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.padd-15 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.section-container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-title {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.aside .copyright-text {
+    background-color: #f6ca91;
+    font-size: 13px;
+    color: #4d6551;
+}
+
+.main-content {
+    padding-left: 270px;
+}
+
+.home {
+    min-height: 30vh;
+    display: flex;
+    display: -ms-flexbox;
+}
+
+    .home .intro {
+        text-align: center;
+    }
+
+        .home .intro img {
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+        }
+
+.btn {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    padding: 12px 35px;
+    border-radius: 40px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 03s ease;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    background-color: #3f5c4c;
+    color: #f6ca91;
+}
+
+.contact {
+    min-height: 100vh;
+    display: flex;
+    display: -ms-flexbox;
+}
+
+
+    .contact .contact-form {
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        padding: 5%;
+    }
+
+        .contact .contact-form .col-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+            -ms-flex: 0 0 50%;
+        }
+
+        .contact .contact-form .col-12 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            -ms-flex: 0 0 100%;
+        }
+
+        .contact .contact-form .form-item .form-control {
+            width: 100%;
+            border: none;
+        }
+
+        .contact .contact-form .form-item {
+            margin-bottom: 30px;
+            height: 50px;
+            border-radius: 25px;
+            border: 1px solid #d4d4e3;
+            padding: 10px 25px;
+            font-size: 16px;
+            width: 900px;
+            border-color: #3f5c4c;
+        }
+
+input, button {
+    font-family: sans-serif;
+}
+
+select {
+    border: none;
+    text-align: right;
+    font-size: 16px;
+}
+
+hr {
+    background-color: #3f5c4c;
+    height: 2px;
+}

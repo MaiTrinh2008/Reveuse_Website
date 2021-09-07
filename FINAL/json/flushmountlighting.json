@@ -1,0 +1,69 @@
+﻿[
+  {
+    "name": "Jeremy Guy",
+    "price": "$3,000",
+    "image": "images/22.jpg",
+    "describe": "Smooth surfaced, black granite has been engineered intio an elegant and classic depiction of a reclining figure by Jeremy Guy."
+  },
+  {
+    "name": "Jerry Hall in Ashkhabad",
+    "price": "$8,125",
+    "image": "images/23.jpg",
+    "describe": "Acrylics, ink and oil on paper - Unframed."
+  },
+  {
+    "name": "Arizona Monsoons",
+    "price": "$3,600",
+    "image": "images/24.jpg",
+    "describe": "Acrylics, ink and oil on paper - Unframed."
+  },
+  {
+    "name": "Covers 1&2",
+    "price": "$7,897.18",
+    "image": "images/25.jpg",
+    "describe": "Acrylics, ink and oil on paper - Unframed."
+  },
+  {
+    "name": "Unexpected scandals",
+    "price": "$7,080.23",
+    "image": "images/26.jpg",
+    "describe": "Knaut builds her compositions slowly over time, adding layers of colours and materials then scraping them away, working them over and over. Gestural markings intermingle with bits of images taken from life, which are then rubbed away."
+
+  },
+
+  {
+    "name": "Covers 1&2",
+    "price": "$7,897.18",
+    "image": "images/25.jpg",
+    "describe": "Beautiful oil on canvas painting by the French artist, Henri Alexis Schaeffer. This painting is a wonderful example of his work from the prime of his career."
+  },
+  {
+    "name": "Unexpected scandals",
+    "price": "$7,080.23",
+    "image": "images/26.jpg",
+    "describe": "Beautiful oil on canvas painting by the French artist, Henri Alexis Schaeffer. This painting is a wonderful example of his work from the prime of his career."
+  },
+  {
+    "name": "Dashing into the day",
+    "price": "$1,906.22",
+    "image": "images/27.jpg",
+    "describe": "Beautiful oil on canvas painting by the French artist, Henri Alexis Schaeffer. This painting is a wonderful example of his work from the prime of his career."
+  },
+  {
+    "name": "Manuela Karin Knaut",
+    "price": "$1,906.22",
+    "image": "images/28.jpg",
+    "describe": "Beautiful oil on canvas painting by the French artist, Henri Alexis Schaeffer. This painting is a wonderful example of his work from the prime of his career."
+  },
+  {
+    "name": "Finches",
+    "price": "$33,000",
+    "image": "images/29.jpg",
+    "describe": "Beautiful oil on canvas painting by the French artist, Henri Alexis Schaeffer. This painting is a wonderful example of his work from the prime of his career."
+  },
+  {
+    "name": "Parisian Street Corner at Dusk 1961",
+    "price": "$7,500",
+    "image": "images/30.jpg",
+    "describe": "The ‘Mantra’ is a silkscreen print with diamond dust, created by Master Contemporary artist, Damien Hirst in 2011. This massive, stately, and shimmering print is the largest ever created by Hirst in his entire career to date. "
+  }]

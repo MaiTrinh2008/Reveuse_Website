@@ -1,0 +1,48 @@
+[ {"id":"1",
+    "name": "Bohemian Platform Bed",
+    "price": "$2888",
+    "image": "images/185.jpg",
+    "describe": "Carved from sustainable mango wood, our UO-exclusive Bohemian Platform Bed adds an understated rustic touch. Complete with a sturdy slatted design so no box spring is needed! Mattress and bedding sold separately."
+  },
+  {"id":"1",
+    "name": "Wyatt Bed",
+    "price": "$599",
+    "image": "images/186.jpg",
+    "describe": "With a rustic-industrial look, this UO-exclusive mango wood bed frame features a raised construction. With solid panels that rest over a slatted base, featuring minimalist planks at headboard and footboard. 2 people recommended for assembly."
+  },
+  {"id":"1",
+    "name": "Rosalie Velvet Platform Bed",
+    "price": "$2000",
+    "image": "images/187.jpg",
+    "describe": "Ultra-glam velvet platform bed frame, found exclusively at UO. Featuring minimalist framing with a lifted platform construction and straight headboard in a luxe, dimensional velvet with 4 removable, brushed metal legs."
+  },
+  {"id":"1",
+    "name": "Eva Wooden Canopy Bed",
+    "price": "$1198",
+    "image": "images/188.jpg",
+    "describe": "The canopy bed you've always dreamed of in natural gmelina wood, only available right here at UO. In a sturdy slated construction so there's no need for a box spring with a rectangular structure built overhead for hanging an airy canopy, string lights or plants - let your imagination run wild."
+  },
+  {"id":"1",
+    "name": "Caroline Rattan Canopy Bed",
+    "price": "$2000",
+    "image": "images/189.jpg",
+    "describe": "Fit for the boho room of your dreams, this canopy bed is crafted from rattan and mahogany wood in a natural finish, featuring caged paneling along standing base. Tall, four-poster design complete with caged top, perfect for winding through string lights or textiles. This custom furniture piece will be made to order just for you."
+  },
+  {"id":"1",
+    "name": "Amelia Platform Bed",
+    "price": "$2900",
+    "image": "images/190.jpg",
+    "describe": "Simply rustic platform bed made from solid mango wood. Slatted base with a reinforced center to perfectly support your mattress. Some assembly required."
+  },
+  {"id":"1",
+    "name": "Andrea Carved Platform Bed",
+    "price": "$590",
+    "image": "images/191.jpg",
+    "describe": "Like a vintage find that makes your space so special, this UO-exclusive wooden platform bed frame adds a rustic storybook touch to your room. Carved from sustainable mango wood in a natural finish with decorative etching in a floral vintage-look pattern."
+  },
+  {"id":"1",
+    "name": "Kira Bed",
+    "price": "$490",
+    "image": "images/192.jpg",
+    "describe": "Sleek + lustrous, this bed frame is crafted from sustainable rubberwood with Okume veneer. Lifted bed frame featuring solid headboard + footboard in a natural finish with a slatted base."
+  }]

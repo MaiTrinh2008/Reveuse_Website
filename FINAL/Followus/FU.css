@@ -1,0 +1,172 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffead9;
+    background-size: cover;
+}
+    .contact .content {
+        max-height: 800px;
+        text-align: center;
+        color: #4d6551;
+    }
+        .contact.content h1 {
+            font-size: 300px;
+            font-weight: 500;
+            color: #4d6551;
+        }
+        .contact .content p {
+            font-weight: 300;
+            color: #4d6551;
+        }
+.container-fl{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+}
+    .container-fl .contactInfo {
+        width:50%;
+        display:flex;
+        flex-direction:column;
+    }
+    .container-fl .contactInfo .box{
+        position:relative;
+        padding:20px 0;
+        display:flex;
+    }
+        .container-fl .contactInfo .box .icon {
+            min-width:60px;
+            height:60px;
+            background:#fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            border-radius:50%;
+            font-size:22px;
+        }
+        .container-fl .contactInfo .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: #4d6551;
+            font-weight: 300;
+            flex-direction: column;
+        }
+            .container-fl .contactInfo .box .text h3 {
+                font-weight: 500;
+                color: #4d6551;
+            }
+            .contactForm{
+                width:40%;
+                padding:40px;
+                background:#fff;
+                
+            }
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+    .contactForm .inputBox input,
+    .contactForm .inputBox textarea {
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+
+    .contactForm .inputBox span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+
+    .contactForm .inputBox input:focus ~ span,
+    .contactForm .inputBox input:valid ~ span,
+    .contactForm .inputBox textarea:focus ~ span,
+    .contactForm .inputBox textarea:valid ~ span {
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+    .contactForm .inputBox input[type="submit"] {
+        width: 100px;
+        background: #e91e63;
+        border: none;
+        color: #4d6551;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px;
+    }
+.client {
+    background: #f6d6ac;
+    padding: 100px;
+    text-align: center;
+}
+
+    .client .imgBx {
+        justify-content:space-between;
+        display:flex;
+        align-items:center;
+        flex-wrap:wrap;
+        margin-top: 40px;
+    }
+
+        .client .imgBx img {
+            max-width: 200px;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+            .client .imgBx img:hover {
+                opacity: 1;
+            }
+
+
+@media(max-width:991px)
+
+{
+    .contact
+    {
+        padding:50px;
+    }
+    .container-fl
+    {
+        flex-direction:column;
+
+    }
+    .container-fl .contactInfo{
+        margin-bottom:40px;
+    }
+    .container-fl .contactInf{
+        width:100px;
+
+    }
+}

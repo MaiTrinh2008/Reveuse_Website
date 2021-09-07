@@ -1,0 +1,215 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E4CAB80-5EDF-4A87-B9B2-73088F347936}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FINAL</RootNamespace>
+    <AssemblyName>FINAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44309</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\app.js" />
+    <Content Include="css\header.css" />
+    <Content Include="Details.html" />
+    <Content Include="Details\css\style.css" />
+    <Content Include="Details\js\app.js" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\10.jpg" />
+    <Content Include="img\11.jpg" />
+    <Content Include="img\12.jpg" />
+    <Content Include="img\13.jpg" />
+    <Content Include="img\14.jpg" />
+    <Content Include="img\15.jpg" />
+    <Content Include="img\16.jpg" />
+    <Content Include="img\17.jpg" />
+    <Content Include="img\18.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\9.jpg" />
+    <Content Include="img\Slider_01.png" />
+    <Content Include="img\Slider_02.png" />
+    <Content Include="Trangchu\css\lightslider.css" />
+    <Content Include="Trangchu\css\slide.css" />
+    <Content Include="Trangchu\css\slider.css" />
+    <Content Include="Trangchu\css\style.css" />
+    <Content Include="css\menu.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Header.html" />
+    <Content Include="img\header\1.jpg" />
+    <Content Include="img\header\anhbia.png" />
+    <Content Include="img\header\cate1.jpg" />
+    <Content Include="img\header\cate2.jpg" />
+    <Content Include="img\header\cate3.jpg" />
+    <Content Include="img\header\chair.jpg" />
+    <Content Include="img\header\chair1.jpg" />
+    <Content Include="img\header\chair2.jpg" />
+    <Content Include="img\header\chair3.jpg" />
+    <Content Include="img\header\exclusive.jpg" />
+    <Content Include="img\header\Logo.png" />
+    <Content Include="img\header\reveuse.png" />
+    <Content Include="Index.html" />
+    <Content Include="Trangchu\img\1.jpg" />
+    <Content Include="Trangchu\img\2.jpg" />
+    <Content Include="Trangchu\img\anhbia.png" />
+    <Content Include="Trangchu\img\bg.jpg" />
+    <Content Include="Trangchu\img\cate1.jpg" />
+    <Content Include="Trangchu\img\cate2.jpg" />
+    <Content Include="Trangchu\img\cate3.jpg" />
+    <Content Include="Trangchu\img\chair.jpg" />
+    <Content Include="Trangchu\img\chair1.jpg" />
+    <Content Include="Trangchu\img\chair2.jpg" />
+    <Content Include="Trangchu\img\chair3.jpg" />
+    <Content Include="Trangchu\img\controls.png" />
+    <Content Include="Trangchu\img\exclusive.jpg" />
+    <Content Include="Trangchu\img\Facebook.png" />
+    <Content Include="Trangchu\img\idex_cate_hoa.jpeg" />
+    <Content Include="Trangchu\img\IMG_6215.JPG" />
+    <Content Include="Trangchu\img\index_ban.jpg" />
+    <Content Include="Trangchu\img\index_cate_den1 %283%29.jpg" />
+    <Content Include="Trangchu\img\index_cate_den1 %284%29.jpg" />
+    <Content Include="Trangchu\img\index_cate_den1 .jpg" />
+    <Content Include="Trangchu\img\index_cate_den1.jpg" />
+    <Content Include="Trangchu\img\index_cate_ghe.jpg" />
+    <Content Include="Trangchu\img\index_cate_ghe1.jpg" />
+    <Content Include="Trangchu\img\index_cate_hoa.jpg" />
+    <Content Include="Trangchu\img\index_cate_tham.jpg" />
+    <Content Include="Trangchu\img\index_cate_tranh.jpg" />
+    <Content Include="Trangchu\img\index_cate_tranh1.jpg" />
+    <Content Include="Trangchu\img\index_ghe.jpg" />
+    <Content Include="Trangchu\img\index_giuong.jpg" />
+    <Content Include="Trangchu\img\instagram.png" />
+    <Content Include="Trangchu\img\reveuse.png" />
+    <Content Include="Trangchu\img\Slider_01.jpg" />
+    <Content Include="Trangchu\img\Slider_01.png" />
+    <Content Include="Trangchu\img\Slider_02.jpg" />
+    <Content Include="Trangchu\img\Slider_02.png" />
+    <Content Include="Trangchu\img\Slider_03.jpg" />
+    <Content Include="Trangchu\img\Slider_04.jpg" />
+    <Content Include="Trangchu\img\twitter.png" />
+    <Content Include="Trangchu\img\whatsapp.png" />
+    <Content Include="Trangchu\js\JQuery.js" />
+    <Content Include="Trangchu\js\lightslider.js" />
+    <Content Include="Trangchu\js\slider.js" />
+    <Content Include="Menu.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="json\products.json" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\index\" />
+    <Folder Include="Trangchu\json\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59094</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44309/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
